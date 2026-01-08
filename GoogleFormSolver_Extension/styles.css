@@ -1,0 +1,14 @@
+/* Ensure buttons are side-by-side */
+.controls { 
+    display: flex; 
+    gap: 8px; 
+    margin-bottom: 8px; 
+}
+/* Ensure tabs are side-by-side */
+.tabs { 
+    display: flex; /* ADD THIS if not present in your styles.css */
+    gap: 8px;
+    margin-top: 10px;
+    border-bottom: 2px solid #ccc; /* To make the tabs distinct */
+    padding-bottom: 5px;
+}

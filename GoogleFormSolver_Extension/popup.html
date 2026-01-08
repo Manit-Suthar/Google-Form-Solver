@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Solver</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h3>Google Form Solver</h3>
+
+      <div class="user-info">
+        <input type="text" id="userName" placeholder="Your Name" />
+        <input type="email" id="userEmail" placeholder="Your Email" />
+        <input type="text" id="userEnrollment" placeholder="Enrollment No." />
+        <button id="saveInfoBtn">Save Info</button>
+      </div>
+
+      <div class="controls">
+        <button id="extractBtn">1. Extract Questions</button>
+        <button id="solveBtn" disabled>2. Get Answers</button>
+        <button id="autofillBtn" disabled>3. Autofill Form</button>
+      </div>
+
+      <div id="resultsContainer">
+        No questions yet — click Extract.
+      </div>
+
+      <div id="status" class="status">Status: idle</div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
